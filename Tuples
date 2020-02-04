@@ -1,0 +1,14 @@
+Tuple is a data structure element and it is  immutable and can't be changed
+tup = (10,20,30)
+tup[1] -- access element
+
+Tuple and Lists are same, only the difference is elements can't be changed in tuple
+
+Set {} -- 
+>>> s = {1,5,6,8}
+>>> s                  --- When you print a value, it will be a distinct and it will arrange a elements internal
+{8, 1, 5, 6}
+
+In set Index is not possible because it doesn't have any order
+
+
