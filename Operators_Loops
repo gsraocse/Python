@@ -1,0 +1,53 @@
+1. Arithmetic
+2. Assignment
+3. Relational
+4. Logical
+5. Unary Operators
+
+
+>>> x *=3
+>>> x
+6
+>>> (a,b)=(10,5) -- Assign a multiple values
+>>> a
+10
+>>> b
+5
+
+
+****Conditional Operators***
+
+a = 10
+if a/10==1:
+    print("its true")
+else:
+    print("wrong")
+
+
+
+x =['srinivas',10,2.5]
+for i in x:
+    print(x)
+    
+str = 'srinivas'
+for x in str:
+    print(x)
+    
+    
+    i=1
+while i<=5:
+    print("srinivas","value",i)
+    i+=1
+
+
+
+x = int(input("enter charct")) -- Take the input from Keyboard
+i = 1
+while i <x:
+    print("candy")
+    i+=1
+
+for i in range(1,10):
+    if i%3==0:
+        continue
+    print(i)
