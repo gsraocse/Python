@@ -1,0 +1,62 @@
+None
+Numeric
+List
+Tuple
+Set
+String
+
+
+None
+*****************************
+When a variable is not assigned with any thing , will call it as none
+
+Numeric:
+**********
+int,
+float,
+complex,
+bool
+
+>>> num=2.5
+>>> type(num)
+<class 'float'>
+>>> num=5
+>>> type(num)
+<class 'int'>
+>>> num=6+9j
+>>> type(num)
+<class 'complex'>
+>>> num=true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> num=TRUE
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'TRUE' is not defined
+>>> num='TRUE'
+>>> type(num
+... )
+<class 'str'>
+>>> a = 10.5
+>>> b=int(a) -- To convert to any respective data type
+>>> b
+10
+>>>
+
+
+>>> a = 10.5
+>>> b=int(a)
+>>> b
+10
+>>> lst = [25,36,3,10,5]
+>>> type(lst)
+<class 'list'>
+>>> s={25,10,30,15}
+>>> type(s)
+<class 'set'>
+>>> str="srinivas"
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(2,10,2))
+[2, 4, 6, 8]
