@@ -1,0 +1,42 @@
+Variables:
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32
+>>> x =2
+>>> x+3
+5
+>>> x=3
+>>> x
+3
+>>> print(x)
+3
+>>> a=10
+>>> type(a)
+<class 'int'>
+>>> 19+a
+29
+>>> a+19
+29
+>>> _+10
+39
+>>> _+20
+59
+>>> name ='srinivas'
+>>> name
+'srinivas'
+>>> type(a)
+<class 'int'>
+>>> name+'srini'
+'srinivassrini'
+>>> name
+'srinivas'
+>>> name[0]
+'s'
+>>> name[0:2]
+'sr'
+>>> name[:2]
+'sr'
+>>> name[2:]
+'inivas'
+>>> name[-1]
+'s'
+>>> name[-2]
+'a'
