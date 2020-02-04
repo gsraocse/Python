@@ -40,3 +40,35 @@ Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD6
 's'
 >>> name[-2]
 'a'
+
+id ---- here we will get the address of storage variable name
+>>> num =5
+>>> id(num)
+140730580841424
+>>> name='srinivas'
+>>> id(name)
+2357562243312
+>>> a=10
+>>> b=a
+>>> id(a)
+140730580841584
+>>> id(b)
+140730580841584
+>>> id(10)
+140730580841584
+>>> id(11)
+140730580841616
+>>> k=10
+>>> id(k)
+140730580841584
+>>> a=15
+>>> id(b)
+140730580841584
+>>> id(a)
+140730580841744
+>>> id(10)
+140730580841584
+
+Here if we refer the same value with multiple variables, only single storage will be there in python and if there is a orphan value, it 
+will be deleted part of Garbage Collector proess
+
