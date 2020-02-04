@@ -1,0 +1,105 @@
+
+>>> num = [10,20,30]
+>>> num[0]
+10
+>>> num[0:]
+[10, 20, 30]
+>>> num[1:]
+[20, 30]
+>>> num[0:]
+[10, 20, 30]
+>>> num[-1]
+30
+>>> num[-1:]
+[30]
+>>> num[-0:]
+[10, 20, 30]
+>>> num[-1:]
+[30]
+>>> num[-2:]
+[20, 30]
+>>> num[-3:]
+[10, 20, 30]
+>>> num[:-1]
+[10, 20]
+>>> num[:-2]
+[10]
+>>> num[:-2]
+[10]
+>>> num[:-3]
+[]
+>>> num[:-1]
+[10, 20]
+>>> num[:-2]
+[10]
+>>> values=[9.5,'srinivas',25]
+>>> listex =[num,values]
+>>> listex
+[[10, 20, 30], [9.5, 'srinivas', 25]]
+>>> num.append(45)
+>>> num
+[10, 20, 30, 45]
+>>> num.insert(2,20)
+>>> num
+[10, 20, 20, 30, 45]
+>>> num.remove(10)
+>>> num
+[20, 20, 30, 45]
+>>> num.pop[1]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> num.pop(1)
+20
+>>> num
+[20, 30, 45]
+>>> num.pop()
+45
+>>> del num[2:]
+>>> num
+[20, 30]
+>>> num.extend(10,20,36)
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: extend() takes exactly one argument (3 given)
+>>> num.extend([10,20,36])
+>>> num
+[20, 30, 10, 20, 36]
+>>> min(num)
+10
+>>> max(num)
+36
+>>> sum(num)
+116
+>>> num.sor
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'sor'
+>>> num.sort
+<built-in method sort of list object at 0x00000224E9A907C8>
+>>> num.sort()
+>>> num
+[10, 20, 20, 30, 36]
+>>> a =[1,2,3]
+>>> type(a)
+<class 'list'>
+>>> a=list(range(10))
+>>> type(a)
+<class 'list'>
+>>> a[10]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+IndexError: list index out of range
+>>> a[1]
+1
+>>> a[:1]
+[0]
+>>> a.insert(1,2000)
+>>> a
+[0, 2000, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> x =10
+>>> y=20
+>>> x/y
+0.5
+>>> x//y
+0
