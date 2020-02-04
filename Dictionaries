@@ -1,0 +1,16 @@
+Dictionaries - it is a key value pair and it will be used to fetch the data faster using key
+
+>>> dt = {'name':'srinivas','name':'vasu'}
+>>> dt
+{'name': 'vasu'}
+>>>
+
+>>> dt['name']
+'vasu'
+>>> d.get('name')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined
+>>> dt.get('name')
+'vasu'
+>>>
